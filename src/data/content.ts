@@ -152,7 +152,7 @@ export const challenges: Project[] = [
     description:
       'A quiz-based tool so employees can take — and leads can track — the company career ladder.',
     image: '/images/ysg.jpg',
-    href: 'https://www.figma.com/file/rm7jkbiJzq4oFQ4saDN25E/%5B2023-Q1%5D---%5BFigma-Challenge%5D---%5BRobin%5D?node-id=671-3786&t=orAqmKQJZoUAmWLb-0',
+    href: 'https://www.figma.com/proto/rm7jkbiJzq4oFQ4saDN25E/-2023-Q1-----Figma-Challenge-----Robin-?node-id=634-1097&p=f&viewport=2976%2C-3557%2C1&t=mhiPuYtLbtwer2hn-1&scaling=contain&content-scaling=fixed&starting-point-node-id=671%3A3786&page-id=0%3A1',
   },
   {
     kind: 'live',
@@ -199,7 +199,5 @@ export const testimonial: Testimonial = {
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About Me', href: '#about' },
-  { label: 'My Strength', href: '#strength' },
   { label: 'My Contact', href: '#contact' },
-  { label: 'My Work', href: '#work' },
 ] as const;

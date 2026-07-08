@@ -6,8 +6,9 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from '@/theme/theme';
 import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import './globals.css';
+import Footer from '@/components/layout/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/next";
+// import './globals.css';
 
 const anton = Anton({ weight: '400', subsets: ['latin'], variable: '--font-anton' });
 const titillium = Titillium_Web({
@@ -27,7 +28,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
+    
     <html lang="en">
+      <SpeedInsights/>
       <body className={`${anton.variable} ${titillium.variable} ${caveat.variable}`}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
