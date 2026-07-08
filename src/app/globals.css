@@ -1,0 +1,4 @@
+/* Kept minimal — theming lives in src/theme/theme.ts (MUI). */
+html {
+  scroll-padding-top: 90px; /* sticky header offset for anchor links */
+}
